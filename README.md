@@ -9,7 +9,7 @@ Potions take up WAY too much space in the inventory. With this mod, all types of
 To keep splash and lingering potions balanced, there is now a 1 second cooldown between uses.
 
 <p align="center">
-<a align="center"><img src="https://i.imgur.com/jh5T97z.gif" alt="Visual showcase of lingering and splash potion cooldown" width="400" height="300"></a>
+<a align="center"><img src="https://i.imgur.com/MoVzC2V.gif" alt="Visual showcase of lingering and splash potion cooldown" width="400" height="300"></a>
 </p>
 
 ### Future Plans:
