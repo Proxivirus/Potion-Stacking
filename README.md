@@ -11,6 +11,7 @@ To keep splash and lingering potions balanced, there is now a 1 second cooldown 
 <p align="center">
 <a align="center"><img src="https://i.imgur.com/jh5T97z.gif" alt="Visual showcase of lingering and splash potion cooldown" width="400" height="300"></a>
 </p>
+[https://i.imgur.com/jh5T97z.gif](https://i.imgur.com/jh5T97z.gif)
 
 ### Future Plans:
 - Backport this mod as far as I resonably can
