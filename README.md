@@ -15,7 +15,7 @@ To keep splash and lingering potions balanced, there is now a 1 second cooldown 
 ### Future Plans:
 - Backport this mod as far as I reasonably can
 - NeoForge Port
-- Add config file to disable thrown potion cooldown
+- ~~Add config file to disable thrown potion cooldown~~ ✔ (also added stack size config)
 
 ## <p align="center">Having issues with something? Got suggestion to make? Or do you just like joining Discord servers?
 ### <p align="center">Join the Discord server! </p>

@@ -16,6 +16,9 @@
 	"icon": "assets/potionstacking/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"modmenu": [
+            "com.proxi.potionstacking.ModMenuIntegration"
+        ]
 	},
 	"mixins": [
 		"potionstacking.mixins.json"
