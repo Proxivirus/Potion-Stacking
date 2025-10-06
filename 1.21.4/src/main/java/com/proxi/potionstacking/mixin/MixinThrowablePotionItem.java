@@ -9,6 +9,7 @@ import net.minecraft.item.ThrowablePotionItem;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
+import net.minecraft.server.world.ServerWorld;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -28,7 +29,7 @@ public abstract class MixinThrowablePotionItem {
 	
     @Inject(method = "method_7836", at = @At("RETURN"))
     private void addCooldown(World world, PlayerEntity player, Hand hand, CallbackInfoReturnable<ActionResult> cir) {
-        if (!world.isClient) {
+        if (world instanceof ServerWorld serverWorld) {
             // Get the ItemStack the player is holding
             ItemStack stack = player.getStackInHand(hand);
             
